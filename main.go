@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang-training/input"
+)
 
 func main() {
 	fmt.Println("Hello World")
-
+	input.TakeInput()
 }
